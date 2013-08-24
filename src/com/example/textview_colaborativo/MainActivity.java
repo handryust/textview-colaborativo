@@ -24,4 +24,8 @@ public class MainActivity extends Activity {
 		// este comentario no estaba antes
 	}
 
+	public void samuelprueba(){
+		System.exit(0);
+		// este es un ejemplo
+	}
 }
