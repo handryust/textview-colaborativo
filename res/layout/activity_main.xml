@@ -15,14 +15,6 @@
         android:text="@string/hello_world" />
 
     <Button
-        android:id="@+id/btn_evelyn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="149dp"
-        android:text="btn_evelyn" />
-
-    <Button
         android:id="@+id/btn_victor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,5 +59,23 @@
         android:layout_alignBottom="@+id/btn_samuel"
         android:layout_alignLeft="@+id/btn_mario"
         android:text="btn_ale" />
+
+    <Button
+        android:id="@+id/btn_evelyn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="62dp"
+        android:text="btn_evelyn" />
+
+    <Button
+        android:id="@+id/btn_robinson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_samuel"
+        android:layout_below="@+id/btn_samuel"
+        android:layout_marginTop="41dp"
+        android:text="btn_robinson" />
 
 </RelativeLayout>
