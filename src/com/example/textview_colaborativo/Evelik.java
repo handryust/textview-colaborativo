@@ -8,4 +8,18 @@ public class Evelik {
         return " hola mundo 1";
     }
 
+
+    public class readData {
+        public static String readStr() {
+            String sdato = "";
+            try{
+                BufferedReader readIn = new BufferedReader(new InputStreamReader(System.in));
+                sdato = readIn.readLine();
+            } catch( IOException e) {
+                System.err.println("Error: " + e.getMessage());
+            }
+            return sdato;
+        }
+    }
 }
+
