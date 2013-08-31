@@ -42,4 +42,8 @@ public class MainActivity extends Activity {
 		System.exit(0);
 		// este es un ejemplo
 	}
+	public void funcionAlejandro(View v){
+		TextView text = (TextView) findViewById(R.id.textView1);
+		text.setText("la funcion de alejandro modifico esto");
+	}
 }
