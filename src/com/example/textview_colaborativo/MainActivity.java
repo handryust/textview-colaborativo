@@ -24,6 +24,24 @@ public class MainActivity extends Activity {
                 text.setText(hola);
             }
         });
+        Button btn_mario = (Button) findViewById(R.id.btn_mario);
+        btn_mario.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                MGutierrez alonso = new MGutierrez();
+                String Hola = alonso.getTex();
+
+                TextView text = (TextView) findViewById(R.id.textView1);
+                text.setText(Hola);
+            }
+        });
+        /*boton salir de aplicacion*/
+        Button btn_salir = (Button) findViewById(R.id.btn_salir);
+        btn_salir.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                setResult(RESULT_OK);
+                finish();
+            }
+        });
 	}
 
 	@Override

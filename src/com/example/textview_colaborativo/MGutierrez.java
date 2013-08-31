@@ -5,6 +5,8 @@ package com.example.textview_colaborativo;
  */
 public class MGutierrez {
     public String getTex(){
-        return "ejemplo uno";
+        return "hi world by Mario Gutierrez";
     }
+
+
 }
